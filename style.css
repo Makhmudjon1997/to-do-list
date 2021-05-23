@@ -11,6 +11,11 @@ body{
     min-height: 100vh;
 }
 
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
 header{
     font-size: 1.5rem;
 }
@@ -132,3 +137,5 @@ form button:hover{
     background-color: white;
     color: #ff6f47;
 } */
+
+
