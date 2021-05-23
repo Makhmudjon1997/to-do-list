@@ -143,6 +143,10 @@ form button:hover{
     .container{
         width: 700px;
     }
+
+    .todo-input{
+        width: 500px;
+    }
 }
 @media (max-width: 710px){
     .container{
