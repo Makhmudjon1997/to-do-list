@@ -139,3 +139,23 @@ form button:hover{
 } */
 
 
+@media (max-width: 810px){
+    .container{
+        width: 700px;
+    }
+}
+@media (max-width: 710px){
+    .container{
+        width: 600px;
+    }
+}
+@media (max-width: 610px){
+    .container{
+        width: 500px;
+    }
+}
+@media (max-width: 510px){
+    .container{
+        width: 400px;
+    }
+}
