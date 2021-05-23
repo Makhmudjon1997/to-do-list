@@ -163,3 +163,13 @@ form button:hover{
         width: 400px;
     }
 }
+
+@media (max-width: 460px){
+    .container{
+        width: 300px;
+    }
+
+    .todo-input{
+        width: 300px;
+    }
+}
