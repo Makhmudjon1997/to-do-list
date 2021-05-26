@@ -25,7 +25,8 @@ function addToDo(event){
     const newToDo = document.createElement("li");
     newToDo.innerText = todoInput.value;
     newToDo.classList.add("todo-item");
-    newToDo.style.overflow = 'hidden'
+    newToDo.style.overflow = 'hidden';
+    newToDo.dataset.createdTime = Date.now();
     
     toDoDiv.appendChild(newToDo);
     
